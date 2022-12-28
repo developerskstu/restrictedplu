@@ -1,2 +1,2 @@
 echo "starting Bot ~@Am_RoBots";
-python3 -m main
+gunicorn app:app & python3 main
